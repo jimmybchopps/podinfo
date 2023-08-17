@@ -64,13 +64,13 @@ twistlock:
 # Toggle for Bigbang Addon packages set true to install
 addons:
   argocd:
-    enabled: false
+    enabled: true
   authservice:
-    enabled: false
+    enabled: true
   gitlab:
-    enabled: false
+    enabled: true
   gitlabRunner:
-    enabled: false
+    enabled: true
   anchore:
     enabled: false
   sonarqube:
@@ -88,6 +88,6 @@ addons:
   velero:
     enabled: false
   keycloak:
-    enabled: false
+    enabled: true
   vault:
     enabled: false
